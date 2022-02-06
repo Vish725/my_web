@@ -1,0 +1,247 @@
+<html>
+<head>
+    <style>
+        #more {display: none;}
+        .background {
+            background-image: url('back.jpeg');
+            background-position: bottom;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 200%;
+            width: 100%;
+        }
+        .blur {
+            background: rgba(255, 255, 255, 0.2); 
+            backdrop-filter: blur(8px); 
+            height: 100%;
+	        width: 100%;
+        }
+        .vl {
+            border-left: 6px solid green;
+            height: 500px;
+            position: absolute;
+            left: 50%;
+            margin-left: -3px;
+            top: 0;
+        }
+        .container1{
+               width: 80%;
+               margin: 50px;
+               height: 22%;
+               color: grey;
+               font-family: sans-serif;
+               border: 2px solid #4CAF50;
+               background-color: white;
+
+        }
+        .column1 {
+            float: left;
+            width: 31.5%;
+            padding: 10px;
+            height: 290px; /* Should be removed. Only for demonstration */
+        }
+        .column2 {
+            float: left;
+            width: 31.5%;
+            padding: 10px;
+            height: 290px; /* Should be removed. Only for demonstration */
+        }
+        .column3 {
+            float: left;
+            width: 31.5%;
+            padding: 10px;
+            height: 290px; /* Should be removed. Only for demonstration */
+        }
+        .container2{
+               width: 80%;
+               margin: 50px;
+               height: 22%;
+               color: grey;
+               font-family: sans-serif;
+               border: 2px solid #4CAF50;
+               background-color: white;
+
+        }
+        .container3{
+               width: 80%;
+               margin: 50px;
+               height: 22%;
+               color: grey;
+               font-family: sans-serif;
+               border: 2px solid #4CAF50;
+               background-color: white;
+        }
+        img{
+            float: left; 
+            margin: 5px;
+            height: 200px;
+            width: auto;
+        }
+        h1{
+            text-align:center;
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        p{
+          padding-left:20% ;
+        }
+        h2{
+            padding-left: 2%;
+        }
+        p1{
+            padding-left:20%;
+            font-family: cursive;
+        }
+        p2{
+            padding-left:2%
+            
+        }
+        p3{
+            padding-left:50%
+        }
+    </style>
+</head>
+<body>
+    <div class="background">
+    <div class="blur">
+        <h1 style="color:whitesmoke">HELLO , I AM VISHNU</h1>
+        <br>
+        <br>
+        <div class="container1">
+            <h2> ABOUT ME</h2>
+            <img src="new.jpg">
+            <p>Hi, i am Vishnu , a fresh engineering graduate , specialised in Computer Science and Engineering .
+                 As a computer techie i am always interested in checking out new technologies and try to go into deeper into the topic , the urge to
+                learn new things. I am intersested in the domain of cloud computing , cloud security and computer networking . Other than this i would like to play video games , and certain indoor games like , table tennis, shuttle .
+                My hobbies are collecting coins and stamps of various countries. I also like to read mystery/adventure novels . Enid Blyton's Famous Five and Dan Brown's books are my favourites. I also watch movies belonging to the mentioned genre along with sci-fi too.
+                I also like to read philosophy.
+            </p>
+                <hr style="width:50%;text-align:left;margin: left 2px;">
+                <p1>"The price of anything is the amount of life you exchange for it" - David Thoreau</p1>
+             
+                <hr style="width:50%;text-align:left;margin: left 2px;">
+            <br>
+            <br>
+            <hr style="width:50%;text-align:left;margin: left 2px;">
+        </div>
+        <div class="container2">
+            <h2> EDUCATION </h2>
+            <img src="school.jpg">
+            <p>
+                <br>
+                <ul>
+                    SAN JOSE MATRIC HR SEC SCHOOL (2005-2016) <a href="https://goo.gl/maps/hQKUMREuzB9TsLoEA"> View in Maps </a>
+                    
+                </ul>
+                <ul>
+                    <br> 
+                    METRO MATRIC HR SEC SCHOOL (2017-2018) <a href="https://goo.gl/maps/beQZMJnzxRgcbeDZ9"> View in Maps </a>
+                </ul>
+                <ul>
+                   <br>
+                   AMRITA SCHOOL OF ENGINEERING (2018-2022) <a href="https://goo.gl/maps/PNBT85Sk7dUChb4Y8"> View in Maps</a>
+                </ul>
+            </p>
+
+        </div>
+        <div class="container3">
+            <div class="column1" style="background-color:#aaa;">
+                <h2>Project 1</h2>
+                <p2>To build an web application using various services
+                    offered by Microsoft azure.The application is to
+                    create a Hospital Management system.Microsoft azure offers
+                    <span id="dots">...</span><span id="more">
+                    The various functions and services are used
+                    as a part of this project.The application is hosted
+                    here.The following are the services that are used
+                    Service Fabric,Virutal Machines,Hybrid Connections(Load Balancers)
+                </span><button onclick="myFunction()" id="myBtn">Read more</button>
+                </p2>
+              </div>
+              <div class="column2" style="background-color:#bbb;">
+                <h2>Project 2</h2>
+                <p2>To create an online insurance policy system and deploy it in AWS. 
+                    This minor project uses AWS services to host . AWS is a cloud service
+                    <span id="dots1">...</span><span id="more1">
+                        which provides a range of services that makes deploying easy on cloud.
+                        AWS services are less costly when compared to AZure and also it 
+                        has more number of services than Azure.
+                        The following services were used in this project 
+                        EC2, S3 , Load Balancers , AWS RDS.
+                    </span><button onclick="myFunction1()" id="myBtn1">Read more</button>
+                </p2>
+              </div>
+              <div class="column3" style="background-color:#ccc;">
+                <h2>Project 3</h2>
+                <p2>To design a online placement portal . This is a major project and worked as a team
+                    The project was followed with proper agile methodology and having scrum and standup meetings.
+                    The project <span id="dots2">...</span><span id="more2">
+                    was reviewed for once in 3 weeks for 3 months . We used jenkins for continuous integration
+                    and dockers for containerisation.We performed many tests using selenium , JUNit and used many test cases 
+                    to test the application.
+                </span><button onclick="myFunction2()" id="myBtn2">Read more</button>
+
+                    
+                </p2>
+              </div>
+        </div>
+        
+        
+    </div>
+    </div>
+    
+    
+</body>
+<script>
+    function myFunction() {
+      var dots = document.getElementById("dots");
+      var moreText = document.getElementById("more");
+      var btnText = document.getElementById("myBtn");
+    
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more"; 
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less"; 
+        moreText.style.display = "inline";
+      }
+    }
+
+    </script>
+    <script>
+        function myFunction1() {
+      var dots = document.getElementById("dots1");
+      var moreText = document.getElementById("more1");
+      var btnText = document.getElementById("myBtn1");
+    
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more"; 
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less"; 
+        moreText.style.display = "inline";
+      }
+    }
+    </script>
+    <script>
+        function myFunction2() {
+      var dots = document.getElementById("dots2");
+      var moreText = document.getElementById("more2");
+      var btnText = document.getElementById("myBtn2");
+    
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more"; 
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less"; 
+        moreText.style.display = "inline";
+      }
+    }
+
+    </script>
+</html>
